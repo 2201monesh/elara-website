@@ -9,22 +9,31 @@ const Categories= [
   {
     title: "Door Locks",
     slug: "door-locks",
+    img: "/media/rose handle img.jpeg",
   },
   {
     title: "Rose Handles",
-    slug: "rose-handles"
+    slug: "rose-handles",
+    img: "/media/rose handle img.jpeg",
   },
   {
     title: "Mortise Handles",
-    slug: "mortise-handles"
+    slug: "mortise-handles",
+    img: "/media/rose handle img.jpeg",
   },
   {
     title: "Door Kit",
-    slug: "door-kit"
+    slug: "door-kit",
+    img: "/media/rose handle img.jpeg",
   }
 ]
 
 const ProductSection = () => {
+
+  const handleCategoryClick = (category) => {
+    // Redirect to the products page with the selected category
+    window.location.href = `/products?category=${category}`;
+  };
 
   return (
     <section className="products-section">
@@ -47,6 +56,7 @@ const ProductSection = () => {
             return (
               <motion.div
                 className="home-product-card relative w-52 h-52 rounded-xl bg-gradient-to-tr from-black to-neutral-700 flex flex-col items-start justify-end p-6 cursor-pointer hover:shadow-2xl max-lg:w-[280px]"
+                style={{ backgroundImage: `url(${category.img})` }}
                 key={index}
                 initial={{
                   top: 12 * (index),
@@ -62,6 +72,7 @@ const ProductSection = () => {
                 whileHover={{
                   scale: 0.95
                 }}
+                onClick={() => handleCategoryClick(category.slug)}
               >
                 <p className="font-semibold text-2xl text-white w-[4ch]">
                   {category.title}
