@@ -74,3 +74,14 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* body{
+  background-color: #F2AB39;
+  color: white;
+} */
+
+.btn{
+  /* background-color: #563C16; */
+  padding: 8px;
+  border-radius: 4px;
+}

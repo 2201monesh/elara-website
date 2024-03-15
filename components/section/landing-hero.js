@@ -22,8 +22,8 @@ const LandingHeroSection = () => {
             </button>
           </Link>
         </div>
-        <div className="absolute -top-20 left-1/2 transform -translate-x-1/2 -z-10 h-[150px] w-[150px] animate-pulse rounded-full bg-orange-200 blur-3xl transition-all hidden md:block" />
-        <div className="absolute -top-20 left-1/3 transform -translate-x-1/3 -z-10 h-[150px] w-[150px] animate-pulse rounded-full bg-purple-300 blur-3xl transition-all hidden md:block" />
+        {/* <div className="absolute -top-20 left-1/2 transform -translate-x-1/2 -z-10 h-[150px] w-[150px] animate-pulse rounded-full bg-orange-200 blur-3xl transition-all hidden md:block" />
+        <div className="absolute -top-20 left-1/3 transform -translate-x-1/3 -z-10 h-[150px] w-[150px] animate-pulse rounded-full bg-purple-300 blur-3xl transition-all hidden md:block" /> */}
       </div>
     </main>
   );
