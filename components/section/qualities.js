@@ -26,7 +26,7 @@ const QualitiesSection = () => {
           <h1 className="text-5xl sm:text-6xl font-semibold leading-[68px] text-center">
             What are we known for?
           </h1>
-          <p className="text-center mt-4 max-w-xl text-neutral-500">
+          <p className="text-center mt-4 max-w-xl text-brown">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id
             pellentesque arcu, sed sit. Nunc, sed sit quisque. Nunc, sed sit
             quisque.
@@ -45,7 +45,7 @@ const QualitiesSection = () => {
               <h3 className="leading-snug text-2xl font-semibold">
                 {quality.title}
               </h3>
-              <p className="font-normal text-lg text-neutral-500 w-56 text-center">
+              <p className="font-normal text-lg text-brown w-56 text-center">
                 {quality.description}
               </p>
             </div>

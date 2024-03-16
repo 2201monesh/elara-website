@@ -46,7 +46,7 @@ const ProductSection = () => {
           <h1 className="about-headline text-4xl sm:text-6xl font-semibold sm:leading-[68px] text-center ">
             Best in class locks and home fittings
           </h1>
-          <p className="about-description text-center mt-4 max-w-xl text-neutral-500 text-lg">
+          <p className="about-description text-center mt-4 max-w-xl text-brown text-lg">
             We have something for everyone, from locks to door handles, and
             everything in between to make your home more secure and beautiful.
           </p>
@@ -55,7 +55,7 @@ const ProductSection = () => {
           {Categories.map((category, index) => {
             return (
               <motion.div
-                className="home-product-card relative w-52 h-52 rounded-xl bg-gradient-to-tr from-black to-neutral-700 flex flex-col items-start justify-end p-6 cursor-pointer hover:shadow-2xl max-lg:w-[280px]"
+                className="home-product-card relative w-52 h-52 rounded-xl bg-light flex flex-col items-start justify-end p-6 cursor-pointer hover:shadow-2xl max-lg:w-[280px]"
                 style={{ backgroundImage: `url(${category.img})` }}
                 key={index}
                 initial={{
@@ -74,11 +74,11 @@ const ProductSection = () => {
                 }}
                 onClick={() => handleCategoryClick(category.slug)}
               >
-                <p className="font-semibold text-2xl text-white w-[4ch]">
+                <p className="font-semibold text-2xl text-brown w-[4ch]">
                   {category.title}
                 </p>
                 <ChevronUp
-                  className="absolute top-6 right-6 text-white rotate-90"
+                  className="absolute top-6 right-6 text-brown rotate-90"
                 />
               </motion.div>
             )
@@ -86,12 +86,12 @@ const ProductSection = () => {
         </div>{" "}
         <div className=" flex flex-col md:flex-row items-center justify-center mx-auto w-full md:w-fit gap-4">
           <Link href="/about-products">
-            <button className="btn">
+            <button className="btn-brown">
               About our products
             </button>
           </Link>
           <Link href="/products">
-            <button className="btn flex justify-center items-center">
+            <button className="btn-brown flex justify-center items-center">
               {"Explore Products"}
               <ArrowRight className="w-4 h-auto" />
             </button>

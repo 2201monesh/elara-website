@@ -62,7 +62,7 @@ const ProductsView = () => {
         <h1 className="leading-snug tracking-tight font-semibold text-5xl">
           Locks & Accessories by Elara
         </h1>
-        <p className="text-lg text-neutral-500 mt-4">
+        <p className="text-lg text-brown mt-4">
           We have something for everyone, from locks to door handles, and
           everything in between to make your home more secure and beautiful.
         </p>

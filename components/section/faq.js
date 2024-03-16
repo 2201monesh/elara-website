@@ -43,14 +43,14 @@ const FAQData = [
   return (
     <section className="faq-section" id="faq">
       <div className="my-36 mx-auto w-[1200px] max-2xl:w-[1200px] max-xl:w-[840px] max-lg:w-[650px] max-md:w-[600px] max-sm:w-[360px]">
-        <div className="faq-cta-content-container rounded-2xl overflow-hidden bg-gradient-to-b from-neutral-700 to-neutral-900 grid grid-cols-1 sm:grid-cols-2 border relative">
+        <div className="faq-cta-content-container rounded-2xl overflow-hidden bg-light grid grid-cols-1 sm:grid-cols-2 border relative">
           <div className="faq-content-section px-10 pt-10 pb-16 flex flex-col items-start justify-end">
-            <h1 className="faq-headline text-4xl sm:text-6xl font-semibold text-white mb-8">
+            <h1 className="faq-headline text-4xl sm:text-6xl font-semibold text-brown mb-8">
               Elara Locks & <br />
               Home Fittings <br />
               FAQs
             </h1>
-            <p className="faq-description text-neutral-300 mt-4 max-w-xl text-lg">
+            <p className="faq-description text-brown mt-4 max-w-xl text-lg">
               Have questions about our products or services? <br />
               We&apos;ve got answers.
             </p>

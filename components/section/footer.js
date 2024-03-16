@@ -48,7 +48,8 @@ const FooterSection = () => {
         <footer className="bg-white lg:grid lg:grid-cols-5">
           <div className="relative block h-32 lg:col-span-2 lg:h-full">
             <Image
-              src="/media/about-lock.avif"
+              // src="/media/about-lock.avif"
+              src="/media/door kit img.jpeg"
               alt="logo"
               layout="fill"
               className="object-cover object-center
@@ -63,23 +64,23 @@ const FooterSection = () => {
                 {" "}
                 <div className=" flex flex-col items-start mb-5">
                   <span className="font-medium text-4xl">{"Elara"}</span>
-                  <span className="font-normal text-lg text-neutral-600">
+                  <span className="font-normal text-lg text-brown">
                     {"Home Fittings"}
                   </span>
                 </div>
                 <p>
-                  <span className="text-xs uppercase tracking-wide text-neutral-500">
+                  <span className="text-xs uppercase tracking-wide text-brown">
                     Call us
                   </span>
 
                   <a
                     href="tel:+91-8868861935"
-                    className="block text-2xl font-medium text-neutral-900 hover:opacity-75 sm:text-3xl"
+                    className="block text-2xl font-medium text-brown hover:opacity-75 sm:text-3xl"
                   >
                     (+91) 8868861935
                   </a>
                 </p>
-                <ul className="mt-8 space-y-1 text-sm text-neutral-700">
+                <ul className="mt-8 space-y-1 text-sm text-brown">
                   <li>Monday to Friday: 10am - 5pm</li>
                   <li>Weekend: 10am - 3pm</li>
                 </ul>
@@ -91,7 +92,7 @@ const FooterSection = () => {
                           href="/"
                           rel="noreferrer"
                           target="_blank"
-                          className="text-neutral-700 transition hover:opacity-75"
+                          className="text-brown transition hover:opacity-75"
                         >
                           <span className="sr-only">
                             {socialMediaLink.name}
@@ -106,7 +107,7 @@ const FooterSection = () => {
 
               <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
                 <div>
-                  <p className="font-medium text-neutral-900">Quicklinks</p>
+                  <p className="font-medium text-brown">Quicklinks</p>
 
                   <ul className="mt-6 space-y-4 text-sm">
                     {productsAndServicesLinks.map(
@@ -115,7 +116,7 @@ const FooterSection = () => {
                           <li key={index}>
                             <Link
                               href={productsAndServicesLink.link}
-                              className="text-neutral-700 transition hover:opacity-75"
+                              className="text-brown transition hover:opacity-75"
                             >
                               {productsAndServicesLink.name}
                             </Link>
@@ -127,7 +128,7 @@ const FooterSection = () => {
                 </div>
 
                 <div>
-                  <p className="font-medium text-neutral-900">
+                  <p className="font-medium text-brown">
                     Customer Service
                   </p>
 
@@ -137,7 +138,7 @@ const FooterSection = () => {
                         <li key={index}>
                           <Link
                             href={companyLink.link}
-                            className="text-neutral-700 transition hover:opacity-75"
+                            className="text-brown transition hover:opacity-75"
                           >
                             {companyLink.name}
                           </Link>
@@ -156,7 +157,7 @@ const FooterSection = () => {
                     <li>
                       <a
                         href="#"
-                        className="text-neutral-500 transition hover:opacity-75"
+                        className="text-brown transition hover:opacity-75"
                       >
                         Terms & Conditions
                       </a>
@@ -165,7 +166,7 @@ const FooterSection = () => {
                     <li>
                       <a
                         href="#"
-                        className="text-neutral-500 transition hover:opacity-75"
+                        className="text-brown transition hover:opacity-75"
                       >
                         Privacy Policy
                       </a>
@@ -174,7 +175,7 @@ const FooterSection = () => {
                     <li>
                       <a
                         href="#"
-                        className="text-neutral-500 transition hover:opacity-75"
+                        className="text-brown transition hover:opacity-75"
                       >
                         Cookies
                       </a>
@@ -182,11 +183,11 @@ const FooterSection = () => {
                   </ul>
                 </div>
                 <div className="">
-                  <p className="mt-8 text-xs text-neutral-500 sm:mt-0">
+                  <p className="mt-8 text-xs text-brown sm:mt-0">
                     This website is built with{" "}
                     <a
                       href="https://nextjs.org/"
-                      className="text-neutral-500 transition hover:opacity-75 underline"
+                      className="text-brown transition hover:opacity-75 underline"
                     >
                       dunolabs.in
                     </a>{" "}

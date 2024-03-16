@@ -9,7 +9,7 @@ const ProductCard = ({
 }) => {
   return (
 
-<div className="product-recommendation-card p-6 border border-neutral-400 shadow-sm w-full">
+<div className="product-recommendation-card p-6 border shadow-sm w-full">
   <Image
     src={imagePathname}
     alt={title}
@@ -25,7 +25,7 @@ const ProductCard = ({
       {title}
     </h3>
 
-    <button className="btn mt-4 ml-auto text-white px-4 py-2 rounded bg-[#424530]">
+    <button className="btn mt-4 ml-auto btn-brown px-4 py-2 rounded">
       Purchase
     </button>
   </div>

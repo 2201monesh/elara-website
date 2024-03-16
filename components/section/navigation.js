@@ -21,7 +21,7 @@ const NavigationSection = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="py-4">
+    <nav className="py-4 navigation">
       <div className="flex flex-row items-center justify-between mx-auto w-[1200px] max-2xl:w-[1200px] max-xl:w-[840px] max-lg:w-[650px] max-md:w-[600px] max-sm:w-[360px]">
         <Link href="/" className="w-fit block">
           <div className="navbar-logo-wrapper w-fit h-auto">
@@ -62,7 +62,7 @@ const NavigationSection = () => {
           <ul className="md:flex md:flex-row md:items-center md:justify-end md:gap-4">
             {NavigationData.options.map((option, optionIndex) => (
               <li
-                className="text-base font-medium hover:text-neutral-500"
+                className="text-base font-medium hover:text-white"
                 key={optionIndex}
               >
                 <Link
@@ -75,7 +75,7 @@ const NavigationSection = () => {
             ))}
             <li>
               <Link href="tel:">
-                <button className="flex justify-center items-center btn">
+                <button className="flex justify-center items-center btn-brown">
                   <Phone className="w-4 h-auto mr-2" />
                   {"Contact us"}
                 </button>
