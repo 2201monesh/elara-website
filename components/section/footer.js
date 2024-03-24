@@ -49,7 +49,7 @@ const FooterSection = () => {
           <div className="relative block h-32 lg:col-span-2 lg:h-full">
             <Image
               // src="/media/about-lock.avif"
-              src="/media/door kit img.jpeg"
+              src="/media/door-kit-img.jpeg"
               alt="logo"
               layout="fill"
               className="object-cover object-center

@@ -124,3 +124,16 @@ body{
 .about-cta-content-container{
   border: 4px solid #e5d7ca;
 }
+
+.faq-cta-content-container{
+  border: 4px solid #533f29;
+}
+
+.landingPage-hero-section{
+  background-image: url('/media/landing-hero-bg-img.jpg');
+  /* background-image: url('/media/bg-img-landing-hero.jpg'); */
+  background-size: cover;
+  background-position: center;
+  color: white;
+  /* height: 600px; */
+}

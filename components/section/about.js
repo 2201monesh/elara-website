@@ -35,8 +35,8 @@ const AboutCTASection = () => {
           </div>
           <div className="action-image-container flex flex-row items-center justify-center overflow-hidden md:w-1/2">
             <Image
-              // src="/media/about-lock.avif"
-              src="/media/door kit img.jpeg"
+              // src="/media/door-lock-1.jpeg"
+              src="/media/door-kit-img.jpeg"
               alt="home image"
               width={"600"}
               height={"400"}

@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const LandingHeroSection = () => {
   return (
-    <main className="landingPage-hero-section my-8 md:my-32 relative">
+    <main className="landingPage-hero-section py-8 md:py-32 relative">
       <div className="mx-auto w-[1200px] max-2xl:w-[1200px] max-xl:w-[840px] max-lg:w-[650px] max-md:w-[600px] max-sm:w-[360px]">
         <h1 className="landingP-headline text-brown text-4xl md:text-7xl font-bold text-center mx-auto">
           Elevate your life, <br /> with better security
