@@ -6,12 +6,12 @@ const FooterSection = () => {
   const socialMediaLinks = [
     {
       name: "Facebook",
-      link: "https://facebook.com",
+      link: "https://www.facebook.com/elarahomefittings?mibextid=WC7FNe&rdid=3nBWFLt8Y5SFgZZb",
       icon: <LucideFacebook className="w-6 h-6" />,
     },
     {
       name: "Instagram",
-      link: "https://instagram.com",
+      link: "https://www.instagram.com/elarahomefittings?igsh=MTlnMnBmY2lyeGp4Nw==",
       icon: <LucideInstagram className="w-6 h-6" />,
     },
   ];
@@ -48,8 +48,8 @@ const FooterSection = () => {
         <footer className="bg-white lg:grid lg:grid-cols-5">
           <div className="relative block h-32 lg:col-span-2 lg:h-full">
             <Image
-              // src="/media/about-lock.avif"
-              src="/media/door-kit-img.jpeg"
+              // src="/media/door-kit-img.jpeg"
+              src="/media/aboutSectionImageElara.jpg"
               alt="logo"
               layout="fill"
               className="object-cover object-center
@@ -81,8 +81,8 @@ const FooterSection = () => {
                   </a>
                 </p>
                 <ul className="mt-8 space-y-1 text-sm text-brown">
-                  <li>Monday to Friday: 10am - 5pm</li>
-                  <li>Weekend: 10am - 3pm</li>
+                  <li>Monday to Saturday: 9am - 6pm</li>
+                  <li>Sunday Closed</li>
                 </ul>
                 <ul className="mt-8 flex gap-6">
                   {socialMediaLinks.map((socialMediaLink, index) => {

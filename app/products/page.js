@@ -10,7 +10,9 @@ const ProductsView = () => {
   "Door Locks",
   "Mortise Handles",
   "Rose Handles",
-  "Door Handles"
+  "Door Handles",
+  "Pad Locks",
+  "Pull Handles"
 ];
 
   const fetchAllProducts = () => {

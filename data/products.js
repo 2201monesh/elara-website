@@ -1,7 +1,7 @@
 
 const ProductsData = [
   {
-    imagePathname: "/lib/EDL-1-HEXABOLT-OSK-ANTIQUE-FINISH.png",
+    imagePathname: "/lib/HEXABOLT EDL-1 ANTIQUE.png",
     title: "EDL 1 HEXABOLT OSK ANTIQUE FINISH",
     description: "",
     
@@ -10,7 +10,16 @@ const ProductsData = [
     status: "new",
   },
   {
-    imagePathname: "/lib/EDL-2-HEXABOLT-BSK-ANTIQUE-FINISH.png",
+    imagePathname: "/lib/HEXABOLT EDL-1 SS.png",
+    title: "EDL 1 HEXABOLT SS",
+    description: "",
+    
+    slug: "edl-1-hexabolt-osk-antique-finish",
+    category: "Door Locks",
+    status: "new",
+  },
+  {
+    imagePathname: "/lib/HEXABOLT EDL-2 ANTIQUE.png",
     title: "EDL 2 HEXABOLT BSK ANTIQUE FINISH",
     description: "",
     
@@ -26,7 +35,7 @@ const ProductsData = [
     category: "Door Locks",
   },
   {
-    imagePathname: "/lib/EDL-3-PENTABOLT-OSK-ANTIQUE-FINISH.png",
+    imagePathname: "/lib/PENTABOLT EDL-3 ANTIQUE.png",
     title: "EDL 3 PENTABOLT OSK ANTIQUE FINISH",
     description: "",
     
@@ -34,7 +43,7 @@ const ProductsData = [
     category: "Door Locks",
   },
   {
-    imagePathname: "/lib/EDL-3-PENTABOLT-OSK-BLACK-SILVER-FINISH.png",
+    imagePathname: "/lib/PENTABOLT EDL-3 BLACKSILVER.png",
     title: "EDL 3 PENTABOLT OSK BLACK SILVER FINISH",
     description: "",
     
@@ -42,7 +51,7 @@ const ProductsData = [
     category: "Door Locks",
   },
   {
-    imagePathname: "/lib/EDL-3-PENTABOLT-OSK-MAAT-BLACK-FINISH.png",
+    imagePathname: "/lib/PENTABOLT EDL-3 MATTEBLACK.png",
     title: "EDL 3 PENTABOLT OSK MAAT BLACK FINISH",
     description: "",
     
@@ -50,7 +59,7 @@ const ProductsData = [
     category: "Door Locks",
   },
   {
-    imagePathname: "/lib/EDL-3-PENTABOLT-OSK-SS-FINISH.png",
+    imagePathname: "/lib/PENTABOLT EDL-3 SS.png",
     title: "EDL 3 PENTABOLT OSK SS FINISH",
     description: "",
     
@@ -58,7 +67,7 @@ const ProductsData = [
     category: "Door Locks",
   },
   {
-    imagePathname: "/lib/EDL-4-PENTABOLT-BSK-BLACK-SILVER.png",
+    imagePathname: "/lib/PENTABOLT EDL-4 BLACKSILVER.png",
     title: "EDL 4 PENTABOLT BSK BLACK SILVER",
     description: "",
     
@@ -66,7 +75,7 @@ const ProductsData = [
     category: "Door Locks",
   },
   {
-    imagePathname: "/lib/EDL-4-PENTABOLT-BSK-MATTE-BLACK.png",
+    imagePathname: "/lib/PENTABOLT EDL-4 MATTEBLACK.png",
     title: "EDL 4 PENTABOLT BSK MATTE BLACK",
     description: "",
     
@@ -74,7 +83,7 @@ const ProductsData = [
     category: "Door Locks",
   },
   {
-    imagePathname: "/lib/EDL-4-ANTIQUE.png",
+    imagePathname: "/lib/PENTABOLT EDL-4 ANTIQUE.png",
     title: "EDL 4 PENTABOLT 2CK ANTIQUE",
     description: "",
     
@@ -82,7 +91,15 @@ const ProductsData = [
     category: "Door Locks",
   },
   {
-    imagePathname: "/lib/EDL-8-QUADBOLT-OSK-ANTIQUE-FINISH.png",
+    imagePathname: "/lib/Pentabolt Latch EDL-7 SS.png",
+    title: "EDL 7 PENTABOLT 2CK SS",
+    description: "",
+    
+    slug: "edl-7-pentabolt-2ck-ss",
+    category: "Door Locks",
+  },
+  {
+    imagePathname: "/lib/QUADBOLT EDL-8 ANTIQUE.png",
     title: "EDL 8 QUADBOLT OSK ANTIQUE FINISH",
     description: "",
     
@@ -90,7 +107,7 @@ const ProductsData = [
     category: "Door Locks",
   },
   {
-    imagePathname: "/lib/EDL-8-QUADBOLT-OSK-SS-FINISH.png",
+    imagePathname: "/lib/QUADBOLT EDL-8 SS.png",
     title: "EDL 8 QUADBOLT OSK SS FINISH",
     description: "",
     
@@ -98,7 +115,15 @@ const ProductsData = [
     category: "Door Locks",
   },
   {
-    imagePathname: "/lib/EDL-11-TRIBOLT-OSK-ANTIQUE-FINISH.png",
+    imagePathname: "/lib/QUADBOLT EDL-9 ANTIQUE.png",
+    title: "EDL 9 QUADBOLT OSK ANTIQUE",
+    description: "",
+    
+    slug: "edl-9-quadbolt-osk-antique",
+    category: "Door Locks",
+  },
+  {
+    imagePathname: "/lib/TRIBOLT EDL-11 ANTIQUE.png",
     title: "EDL 11 TRIBOLT OSK ANTIQUE FINISH",
     description: "",
     
@@ -106,7 +131,7 @@ const ProductsData = [
     category: "Door Locks",
   },
   {
-    imagePathname: "/lib/EDL-11-TRIBOLT-OSK-SS-FINISH.png",
+    imagePathname: "/lib/TRIBOLT EDL-11 SS.png",
     title: "EDL 11 TRIBOLT OSK SS FINISH",
     description: "",
     
@@ -114,7 +139,7 @@ const ProductsData = [
     category: "Door Locks",
   },
   {
-    imagePathname: "/lib/EDL-11-TRIBOLT-OSK-BLACK-SILVER-FINISH.png",
+    imagePathname: "/lib/TRIBOLT EDL-11 BLACKSILVER.png",
     title: "EDL 11 TRIBOLT OSK BLACK SILVER FINISH",
     description: "",
     
@@ -122,7 +147,7 @@ const ProductsData = [
     category: "Door Locks",
   },
   {
-    imagePathname: "/lib/EDL-12-TRIBOLT-BSK-ANTIQUE-FINISH.png",
+    imagePathname: "/lib/TRIBOLT EDL-12 ANTIQUE.png",
     title: "EDL 12 TRIBOLT BSK ANTIQUE FINISH",
     description: "",
     
@@ -130,7 +155,7 @@ const ProductsData = [
     category: "Door Locks",
   },
   {
-    imagePathname: "/lib/EDL-12-TRIBOLT-BSK-SS-FINISH.png",
+    imagePathname: "/lib/TRIBOLT EDL-12 SS.png",
     title: "EDL 12 TRIBOLT BSK SS FINISH",
     description: "",
     
@@ -138,7 +163,7 @@ const ProductsData = [
     category: "Door Locks",
   },
   {
-    imagePathname: "/lib/EDL-14-SEPTABOLT-OSK-ANTIQUE-FINISH.png",
+    imagePathname: "/lib/SEPTABOLT EDL-14 ANTIQUE.png",
     title: "EDL 14 SEPTABOLT OSK ANTIQUE FINISH",
     description: "",
     
@@ -146,7 +171,7 @@ const ProductsData = [
     category: "Door Locks",
   },
   {
-    imagePathname: "/lib/EDL-14-SEPTABOLT-OSK-SS-FINISH.png",
+    imagePathname: "/lib/SEPTABOLT EDL-14 SS.png",
     title: "EDL 14 SEPTABOLT OSK SS FINISH",
     description: "",
     
@@ -154,7 +179,7 @@ const ProductsData = [
     category: "Door Locks",
   },
   {
-    imagePathname: "/lib/EDL-15-SEPTABOLT-BSK-ANTIQUE-FINISH.png",
+    imagePathname: "/lib/SEPTABOLT EDL-15 ANTIQUE.png",
     title: "EDL 15 SEPTABOLT BSK ANTIQUE FINISH",
     description: "",
     
@@ -162,7 +187,7 @@ const ProductsData = [
     category: "Door Locks",
   },
   {
-    imagePathname: "/lib/EDL-16-ANT.jpg",
+    imagePathname: "/lib/RIM LATCH EDL-16 ANTNTIQUE.png",
     title: "EDL 16 ANT",
     description: "",
     
@@ -170,7 +195,7 @@ const ProductsData = [
     category: "Door Locks",
   },
   {
-    imagePathname: "/lib/EDL-16-Ivory.jpg",
+    imagePathname: "/lib/RIM LATCH EDL-16 IVORY.png",
     title: "EDL 16 IVORY",
     description: "",
     
@@ -178,7 +203,7 @@ const ProductsData = [
     category: "Door Locks",
   },
   {
-    imagePathname: "/lib/EDL-16-SS.jpg",
+    imagePathname: "/lib/RIM LATCH EDL-16 SS.png",
     title: "EDL 16 SS",
     description: "",
     
@@ -186,7 +211,15 @@ const ProductsData = [
     category: "Door Locks",
   },
   {
-    imagePathname: "/lib/EDL-19-ANT.jpg",
+    imagePathname: "/lib/NIGHT LATCH EDL-18.png",
+    title: "EDL 18 EDL",
+    description: "",
+    
+    slug: "edl-18-edl",
+    category: "Door Locks",
+  },
+  {
+    imagePathname: "/lib/VERTIBOLT EDL-19 ANT.png",
     title: "EDL 19 ANT",
     description: "",
     
@@ -194,7 +227,7 @@ const ProductsData = [
     category: "Door Locks",
   },
   {
-    imagePathname: "/lib/EDL-19-SS.jpg",
+    imagePathname: "/lib/VERTIBOLT EDL-19 SS.png",
     title: "EDL 19 SS",
     description: "",
     
@@ -202,7 +235,7 @@ const ProductsData = [
     category: "Door Locks",
   },
   {
-    imagePathname: "/lib/EDL-20-ANTIQUE.png",
+    imagePathname: "/lib/VERTIBOLT XL EDL-20 ANTIQUE.png",
     title: "EDL 20 ANTIQUE",
     description: "",
     
@@ -210,7 +243,7 @@ const ProductsData = [
     category: "Door Locks",
   },
   {
-    imagePathname: "/lib/EDL-20-SS.png",
+    imagePathname: "/lib/VERTIBOLT XL EDL-20 SS.png",
     title: "EDL 20 SS",
     description: "",
     
@@ -218,19 +251,35 @@ const ProductsData = [
     category: "Door Locks",
   },
   {
-    imagePathname: "/lib/EDL-26-6-TURN.png",
+    imagePathname: "/lib/6 TURN EDL-22.png",
+    title: "EDL 22",
+    description: "",
+    
+    slug: "edl-20",
+    category: "Door Locks",
+  },
+  {
+    imagePathname: "/lib/6 TURN OVAL EDL-23.png",
+    title: "EDL 23 OVAL",
+    description: "",
+    
+    slug: "edl-23-oval",
+    category: "Door Locks",
+  },
+  {
+    imagePathname: "/lib/6 TURN EDL-24.png",
+    title: "EDL 24 TURN",
+    description: "",
+    
+    slug: "edl-24-turn",
+    category: "Door Locks",
+  },
+  {
+    imagePathname: "/lib/EDL 26 6 TURN.png",
     title: "EDL 26 TURN",
     description: "",
     
     slug: "edl-26-turn",
-    category: "Door Locks",
-  },
-  {
-    imagePathname: "/lib/EDL-27-TRIBOLT-MINI-ANTIQUE-FINISH.png",
-    title: "EDL 27 TRIBOLT MINI ANTIQUE FINISH",
-    description: "",
-    
-    slug: "edl-27-tribolt-mini-antique-finish",
     category: "Door Locks",
   },
   {
@@ -400,6 +449,62 @@ const ProductsData = [
     
     slug: "z4",
     category: "Rose Handles",
+  },
+  {
+    imagePathname: "/lib/PULL HANDLE EPH-1.png",
+    title: "PULL HANDLE EPH-1",
+    description: "",
+    
+    slug: "eph-1",
+    category: "Pull Handles",
+  },
+  {
+    imagePathname: "/lib/PULL HANDLE EPH-2.png",
+    title: "PULL HANDLE EPH-2",
+    description: "",
+    
+    slug: "eph-2",
+    category: "Pull Handles",
+  },
+  {
+    imagePathname: "/lib/Disc Lock.png",
+    title: "Disc Lock",
+    description: "",
+    
+    slug: "disk-lock",
+    category: "Pad Locks",
+  },
+  {
+    imagePathname: "/lib/BDK-01.jpg",
+    title: "Door Lock BDK-1",
+    description: "",
+    
+    slug: "door-lock-bdk-1",
+    category: "Door Handles",
+  },
+  {
+    imagePathname: "/lib/BDK-02.jpg",
+    title: "Door Lock BDK-2",
+    description: "",
+    
+    slug: "door-lock-bdk-2",
+    category: "Door Handles",
+  },
+  {
+    imagePathname: "/lib/BDK-03.jpg",
+    title: "Door Lock BDK-3",
+    description: "",
+    
+    slug: "door-lock-bdk-3",
+    category: "Door Handles",
+  },
+  {
+    imagePathname: "/lib/BDK-04.jpg",
+    title: "Door Lock BDK-4",
+    description: "",
+    
+    slug: "door-lock-bdk-4",
+    category: "Door Handles",
   },
 ];
 

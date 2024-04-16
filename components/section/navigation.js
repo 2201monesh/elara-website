@@ -6,7 +6,7 @@ import { Phone } from "lucide-react";
 
 const NavigationData = {
   logo: {
-    imgURL: "/media/elara-dark.svg", // Add your logo image URL here
+    imgURL: "/media/elara-dark.svg",
     title: "Elara Home Fittings Logo",
   },
   options: [
@@ -62,7 +62,7 @@ const NavigationSection = () => {
           <ul className="md:flex md:flex-row md:items-center md:justify-end md:gap-4">
             {NavigationData.options.map((option, optionIndex) => (
               <li
-                className="text-base font-medium hover:text-white"
+                className="text-base font-medium"
                 key={optionIndex}
               >
                 <Link

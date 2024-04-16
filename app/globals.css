@@ -75,11 +75,6 @@
   }
 }
 
-body{
-  background-color: #e5d7ca;
-  color: #533f29;
-}
-
 .bg-light{
   background-color: #f6f3ee;
 }
@@ -91,18 +86,12 @@ body{
 
 .btn-brown{
   padding: 8px;
-  background-color: #533f29;
+  background-color: black;
   color: white;
 }
 
 .about-cta-section{
-  background-color: white;
   padding: 50px 0;
-}
-
-.qualities-section{
-  background-color: white;
-  padding: 10px 0;
 }
 
 .footer-section{
@@ -131,9 +120,20 @@ body{
 
 .landingPage-hero-section{
   background-image: url('/media/landing-hero-bg-img.jpg');
-  /* background-image: url('/media/bg-img-landing-hero.jpg'); */
   background-size: cover;
   background-position: center;
   color: white;
-  /* height: 600px; */
+}
+
+.shadow-white {
+  text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.5);
+}
+
+.stroke-text {
+  -webkit-text-stroke: 1px white;
+  text-stroke: 1px white;
+}
+
+.landingPage-cta-wrapper{
+  margin-top: 70px;
 }

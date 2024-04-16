@@ -8,7 +8,7 @@ import {
 const FAQData = [
     {
       title: "What types of locks and home fittings do you offer?",
-      description: "What types of locks and home fittings do you offer?",
+      description: "We offer Door kits, Door locks, Rose handles, Mortise handles and much more.",
     },
     {
       title:
@@ -46,7 +46,7 @@ const FAQData = [
         <div className="faq-cta-content-container rounded-2xl overflow-hidden bg-light grid grid-cols-1 sm:grid-cols-2 border relative">
           <div className="faq-content-section px-10 pt-10 pb-16 flex flex-col items-start justify-end">
             <h1 className="faq-headline text-4xl sm:text-6xl font-semibold text-brown mb-8">
-              Elara Locks & <br />
+              Elara <br />
               Home Fittings <br />
               FAQs
             </h1>

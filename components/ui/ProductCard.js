@@ -9,7 +9,7 @@ const ProductCard = ({
 }) => {
   return (
 
-<div className="product-recommendation-card p-6 border shadow-sm w-full">
+<div className="product-recommendation-card p-6 border shadow-sm w-full h-[500px]">
   <Image
     src={imagePathname}
     alt={title}
