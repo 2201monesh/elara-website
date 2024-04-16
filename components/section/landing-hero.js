@@ -34,14 +34,10 @@ const LandingHeroSection = () => {
         transition: "background-image 1s ease-in-out"
       }}
     >
-      <div className="mx-auto w-[1200px] max-2xl:w-[1200px] max-xl:w-[840px] max-lg:w-[650px] max-md:w-[600px] max-sm:w-[360px]">
+      {/* <div className="mx-auto w-[1200px] max-2xl:w-[1200px] max-xl:w-[840px] max-lg:w-[650px] max-md:w-[600px] max-sm:w-[360px]">
         <h1 className="landingP-headline text-black shadow-white stroke-text text-4xl md:text-7xl font-bold text-center mx-auto">
           Elevate your life, <br /> with better security
         </h1>
-        {/* <p className="landingPage-description text-lg md:text-xl font-normal text-brown max-w-xl text-center mx-auto my-4 text-black">
-          Elevate your home's security and aesthetic appeal with our premium
-          locks and home fittings, elegance in every detail.
-        </p> */}
         <div className="landingPage-cta-wrapper flex flex-col md:flex-row items-center justify-center mx-auto w-full md:w-fit gap-4">
           <Link href="/#faq">
             <button className="btn-brown">{"Read FAQs"}</button>
@@ -52,7 +48,7 @@ const LandingHeroSection = () => {
             </button>
           </Link>
         </div>
-      </div>
+      </div> */}
     </main>
   );
 };
