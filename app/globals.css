@@ -120,9 +120,17 @@
 
 .landingPage-hero-section{
   background-image: url('/media/landing-hero-bg-img.jpg');
-  background-size: cover;
-  background-position: center;
+  /* background-size: cover;
+  background-position: center; */
   color: white;
+
+
+  background-size: cover;
+    /* Cover the entire container by default */
+    background-position: center;
+    /* Center the background image */
+    background-repeat: no-repeat;
+    /* Do not repeat the background image */
 }
 
 .shadow-white {
@@ -140,4 +148,17 @@
 
 .landingPage-hero-section{
   height: 85vh;
+}
+
+.home-product-card{
+  background-size: cover;
+}
+
+
+@media screen and (max-width: 768px) {
+  .landingPage-hero-section {
+    background-size: 100% auto;
+    height: 800px;
+    width: 450px;
+  }
 }

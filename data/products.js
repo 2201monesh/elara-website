@@ -8,6 +8,7 @@ const ProductsData = [
     slug: "edl-1-hexabolt-osk-antique-finish",
     category: "Door Locks",
     status: "new",
+    purchaseLink: "https://www.amazon.in/dp/B0CLLTDV7R?ref=myi_title_dp"
   },
   {
     imagePathname: "/lib/HEXABOLT EDL-1 SS.png",
@@ -25,6 +26,7 @@ const ProductsData = [
     
     slug: "edl-2-hexabolt-bsk-antique-finish",
     category: "Door Locks",
+    purchaseLink: "https://www.amazon.in/dp/B0CLLSN5XK?ref=myi_title_dp"
   },
   {
     imagePathname: "/lib/EDL-2-SS.png",
@@ -33,6 +35,7 @@ const ProductsData = [
     
     slug: "edl-2-hexabolt-2ck-stainless-steel",
     category: "Door Locks",
+    purchaseLink: "https://www.amazon.in/dp/B0CP448VS9?ref=myi_title_dp"
   },
   {
     imagePathname: "/lib/PENTABOLT EDL-3 ANTIQUE.png",
@@ -41,6 +44,7 @@ const ProductsData = [
     
     slug: "edl-3-pentabolt-osk-antique-finish",
     category: "Door Locks",
+    purchaseLink: "https://www.amazon.in/dp/B0CG4RYRKR?ref=myi_title_dp"
   },
   {
     imagePathname: "/lib/PENTABOLT EDL-3 BLACKSILVER.png",
@@ -49,6 +53,7 @@ const ProductsData = [
     
     slug: "edl-3-pentabolt-osk-black-silver-finish",
     category: "Door Locks",
+    purchaseLink: "https://www.amazon.in/dp/B0CG9NSPK7?ref=myi_title_dp"
   },
   {
     imagePathname: "/lib/PENTABOLT EDL-3 MATTEBLACK.png",
@@ -57,6 +62,7 @@ const ProductsData = [
     
     slug: "edl-3-pentabolt-osk-maat-black-finish",
     category: "Door Locks",
+    purchaseLink: "https://www.amazon.in/dp/B0CG7BYFWH?ref=myi_title_dp"
   },
   {
     imagePathname: "/lib/PENTABOLT EDL-3 SS.png",
@@ -65,6 +71,7 @@ const ProductsData = [
     
     slug: "edl-3-pentabolt-osk-ss-finish",
     category: "Door Locks",
+    purchaseLink: "https://www.amazon.in/dp/B0CG9L24FS?ref=myi_title_dp"
   },
   {
     imagePathname: "/lib/PENTABOLT EDL-4 BLACKSILVER.png",
@@ -73,6 +80,7 @@ const ProductsData = [
     
     slug: "edl-4-pentabolt-bsk-black-silver",
     category: "Door Locks",
+    purchaseLink: "https://www.amazon.in/dp/B0CLLW4SGH?ref=myi_title_dp"
   },
   {
     imagePathname: "/lib/PENTABOLT EDL-4 MATTEBLACK.png",
@@ -81,6 +89,7 @@ const ProductsData = [
     
     slug: "edl-4-pentabolt-bsk-matte-black",
     category: "Door Locks",
+    purchaseLink: "https://www.amazon.in/dp/B0CLLS33FD?ref=myi_title_dp"
   },
   {
     imagePathname: "/lib/PENTABOLT EDL-4 ANTIQUE.png",
@@ -89,6 +98,7 @@ const ProductsData = [
     
     slug: "edl-4-pentabolt-2ck-antique",
     category: "Door Locks",
+    purchaseLink: "https://www.amazon.in/dp/B0CLLVD8T4?ref=myi_title_dp"
   },
   {
     imagePathname: "/lib/Pentabolt Latch EDL-7 SS.png",
@@ -97,6 +107,7 @@ const ProductsData = [
     
     slug: "edl-7-pentabolt-2ck-ss",
     category: "Door Locks",
+    purchaseLink: "https://www.amazon.in/dp/B0CLVKQ673?ref=myi_title_dp"
   },
   {
     imagePathname: "/lib/QUADBOLT EDL-8 ANTIQUE.png",
@@ -105,6 +116,7 @@ const ProductsData = [
     
     slug: "edl-8-quadbolt-osk-antique-finish",
     category: "Door Locks",
+    purchaseLink: "https://www.amazon.in/dp/B0CGDDKHHQ?ref=myi_title_dp"
   },
   {
     imagePathname: "/lib/QUADBOLT EDL-8 SS.png",
@@ -113,6 +125,7 @@ const ProductsData = [
     
     slug: "edl-8-quadbolt-osk-ss-finish",
     category: "Door Locks",
+    purchaseLink: "https://www.amazon.in/dp/B0CGDKXM1S?ref=myi_title_dp"
   },
   {
     imagePathname: "/lib/QUADBOLT EDL-9 ANTIQUE.png",
@@ -129,6 +142,7 @@ const ProductsData = [
     
     slug: "edl-11-tribolt-osk-antique-finish",
     category: "Door Locks",
+    purchaseLink: "https://www.amazon.in/dp/B0CFHY1DXT?ref=myi_title_dp"
   },
   {
     imagePathname: "/lib/TRIBOLT EDL-11 SS.png",
@@ -137,6 +151,7 @@ const ProductsData = [
     
     slug: "edl-11-tribolt-osk-ss-finish",
     category: "Door Locks",
+    purchaseLink: "https://www.amazon.in/dp/B0CFL3FJBX?ref=myi_title_dp"
   },
   {
     imagePathname: "/lib/TRIBOLT EDL-11 BLACKSILVER.png",
@@ -145,6 +160,7 @@ const ProductsData = [
     
     slug: "edl-11-tribolt-osk-black-silver-finish",
     category: "Door Locks",
+    purchaseLink: "https://www.amazon.in/dp/B0CFLCJZ61?ref=myi_title_dp"
   },
   {
     imagePathname: "/lib/TRIBOLT EDL-12 ANTIQUE.png",
@@ -153,6 +169,7 @@ const ProductsData = [
     
     slug: "edl-12-tribolt-bsk-antique-finish",
     category: "Door Locks",
+    purchaseLink: "https://www.amazon.in/dp/B0CGK75426?ref=myi_title_dp"
   },
   {
     imagePathname: "/lib/TRIBOLT EDL-12 SS.png",
@@ -161,6 +178,7 @@ const ProductsData = [
     
     slug: "edl-12-tribolt-bsk-ss-finish",
     category: "Door Locks",
+    purchaseLink: "https://www.amazon.in/dp/B0CGL1D6F6?ref=myi_title_dp"
   },
   {
     imagePathname: "/lib/SEPTABOLT EDL-14 ANTIQUE.png",
@@ -169,6 +187,7 @@ const ProductsData = [
     
     slug: "edl-14-septabolt-osk-antique-finish",
     category: "Door Locks",
+    purchaseLink: "https://www.amazon.in/dp/B0CLLXPDB7?ref=myi_title_dp"
   },
   {
     imagePathname: "/lib/SEPTABOLT EDL-14 SS.png",
@@ -177,6 +196,7 @@ const ProductsData = [
     
     slug: "edl-14-septabolt-osk-ss-finish",
     category: "Door Locks",
+    purchaseLink: "https://www.amazon.in/dp/B0CLP7WMQR?ref=myi_title_dp"
   },
   {
     imagePathname: "/lib/SEPTABOLT EDL-15 ANTIQUE.png",
@@ -185,6 +205,7 @@ const ProductsData = [
     
     slug: "edl-15-septabolt-bsk-antique-finish",
     category: "Door Locks",
+    purchaseLink: "https://www.amazon.in/dp/B0CLLWZ364?ref=myi_title_dp"
   },
   {
     imagePathname: "/lib/RIM LATCH EDL-16 ANTNTIQUE.png",
@@ -193,6 +214,7 @@ const ProductsData = [
     
     slug: "edl-16-ant",
     category: "Door Locks",
+    purchaseLink: "https://www.amazon.in/dp/B0CLVJ8GQL?ref=myi_title_dp"
   },
   {
     imagePathname: "/lib/RIM LATCH EDL-16 IVORY.png",
@@ -201,6 +223,7 @@ const ProductsData = [
     
     slug: "edl-16-ivory",
     category: "Door Locks",
+    purchaseLink: "https://www.amazon.in/dp/B0CLVFPK9X?ref=myi_title_dp"
   },
   {
     imagePathname: "/lib/RIM LATCH EDL-16 SS.png",
@@ -209,6 +232,7 @@ const ProductsData = [
     
     slug: "edl-16-ss",
     category: "Door Locks",
+    purchaseLink: "https://www.amazon.in/dp/B0CLVJ5K3R?ref=myi_title_dp"
   },
   {
     imagePathname: "/lib/NIGHT LATCH EDL-18.png",
@@ -225,6 +249,7 @@ const ProductsData = [
     
     slug: "edl-19-ant",
     category: "Door Locks",
+    purchaseLink: "https://www.amazon.in/dp/B0CLZXP61W?ref=myi_title_dp"
   },
   {
     imagePathname: "/lib/VERTIBOLT EDL-19 SS.png",
@@ -233,6 +258,7 @@ const ProductsData = [
     
     slug: "edl-19-ss",
     category: "Door Locks",
+    purchaseLink: "https://www.amazon.in/dp/B0CLZXNGP1?ref=myi_title_dp"
   },
   {
     imagePathname: "/lib/VERTIBOLT XL EDL-20 ANTIQUE.png",
@@ -241,6 +267,7 @@ const ProductsData = [
     
     slug: "edl-20-antique",
     category: "Door Locks",
+    purchaseLink: "https://www.amazon.in/dp/B0CLZZVQPN?ref=myi_title_dp"
   },
   {
     imagePathname: "/lib/VERTIBOLT XL EDL-20 SS.png",
@@ -249,6 +276,7 @@ const ProductsData = [
     
     slug: "edl-20-ss",
     category: "Door Locks",
+    purchaseLink: "https://www.amazon.in/dp/B0CLZY46PW?ref=myi_title_dp"
   },
   {
     imagePathname: "/lib/6 TURN EDL-22.png",
@@ -289,6 +317,7 @@ const ProductsData = [
     
     slug: "ez-14",
     category: "Mortise Handles",
+    purchaseLink: "https://www.amazon.in/dp/B0CLNZJM3S?ref=myi_title_dp"
   },
   {
     imagePathname: "/lib/EZ-15.png",
@@ -297,6 +326,7 @@ const ProductsData = [
     
     slug: "ez-15",
     category: "Mortise Handles",
+    purchaseLink: "https://www.amazon.in/dp/B0CLP2YK4K?ref=myi_title_dp"
   },
   {
     imagePathname: "/lib/EZ-16.png",
@@ -305,6 +335,7 @@ const ProductsData = [
     
     slug: "ez-16",
     category: "Mortise Handles",
+    purchaseLink: "https://www.amazon.in/dp/B0CLLW7B6Q?ref=myi_title_dp"
   },
   {
     imagePathname: "/lib/EZ-17.png",
@@ -313,6 +344,7 @@ const ProductsData = [
     
     slug: "ez-17",
     category: "Mortise Handles",
+    purchaseLink: "https://www.amazon.in/dp/B0CLP14YMZ?ref=myi_title_dp"
   },
   {
     imagePathname: "/lib/EZ-18.png",
@@ -321,6 +353,7 @@ const ProductsData = [
     
     slug: "ez-18",
     category: "Mortise Handles",
+    purchaseLink: "https://www.amazon.in/dp/B0CLP28PCD?ref=myi_title_dp"
   },
   {
     imagePathname: "/lib/EZ-19.png",
@@ -329,6 +362,7 @@ const ProductsData = [
     
     slug: "ez-19",
     category: "Mortise Handles",
+    purchaseLink: "https://www.amazon.in/dp/B0CLNZZ72W?ref=myi_title_dp"
   },
   {
     imagePathname: "/lib/ER-1-BLACK.png",
@@ -337,6 +371,7 @@ const ProductsData = [
     
     slug: "er-1-black",
     category: "Rose Handles",
+    purchaseLink: "https://www.amazon.in/dp/B0CMQKJM28?ref=myi_title_dp"
   },
   {
     imagePathname: "/lib/ER-2-ROSE-GOLD.png",
@@ -361,6 +396,7 @@ const ProductsData = [
     
     slug: "er-3-black",
     category: "Rose Handles",
+    purchaseLink: "https://www.amazon.in/dp/B0CMM92LGY?ref=myi_title_dp"
   },
   {
     imagePathname: "/lib/ER-3-SS.png",
@@ -385,6 +421,7 @@ const ProductsData = [
     
     slug: "er-5-black",
     category: "Rose Handles",
+    purchaseLink: "https://www.amazon.in/dp/B0CMM9W2LL?ref=myi_title_dp"
   },
   {
     imagePathname: "/lib/ER-6-BLACK.png",
@@ -401,6 +438,7 @@ const ProductsData = [
     
     slug: "er-8-black",
     category: "Rose Handles",
+    purchaseLink: "https://www.amazon.in/dp/B0CMHDBRGS?ref=myi_title_dp"
   },
   {
     imagePathname: "/lib/ER-8-ROSE-GOLD.png",

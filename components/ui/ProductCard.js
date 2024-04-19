@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const ProductCard = ({
   title,
@@ -6,6 +7,7 @@ const ProductCard = ({
   category,
   imagePathname,
   status,
+  purchaseLink
 }) => {
   return (
 
@@ -26,7 +28,7 @@ const ProductCard = ({
     </h3>
 
     <button className="btn mt-4 ml-auto btn-brown px-4 py-2 rounded">
-      Purchase
+      <a href={purchaseLink}>Purchase</a>
     </button>
   </div>
 </div>

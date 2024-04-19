@@ -9,22 +9,22 @@ const Categories= [
   {
     title: "Door Locks",
     slug: "door-locks",
-    img: "/media/rose handle img.jpeg",
+    img: "/media/HEXABOLT-EDL-1-SS.png",
   },
   {
     title: "Rose Handles",
     slug: "rose-handles",
-    img: "/media/rose handle img.jpeg",
+    img: "/media/rose-handle-img.jpeg",
   },
   {
     title: "Mortise Handles",
     slug: "mortise-handles",
-    img: "/media/rose handle img.jpeg",
+    img: "/media/EZ-16.png",
   },
   {
-    title: "Door Kit",
+    title: "Pull Handles",
     slug: "door-kit",
-    img: "/media/rose handle img.jpeg",
+    img: "/media/PULL-HANDLE-EPH-2.png",
   }
 ]
 
@@ -74,7 +74,7 @@ const ProductSection = () => {
                 }}
                 onClick={() => handleCategoryClick(category.slug)}
               >
-                <p className="font-semibold text-2xl text-brown w-[4ch]">
+                <p className="font-semibold text-2xl text-brown w-[4ch] text-black shadow-white">
                   {category.title}
                 </p>
                 <ChevronUp
@@ -85,11 +85,11 @@ const ProductSection = () => {
           })}
         </div>{" "}
         <div className=" flex flex-col md:flex-row items-center justify-center mx-auto w-full md:w-fit gap-4">
-          <Link href="/about-products">
+          {/* <Link href="/about">
             <button className="btn-brown">
               About our products
             </button>
-          </Link>
+          </Link> */}
           <Link href="/products">
             <button className="btn-brown flex justify-center items-center">
               {"Explore Products"}

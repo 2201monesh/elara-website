@@ -19,11 +19,11 @@ const FooterSection = () => {
   const productsAndServicesLinks = [
     {
       name: "All Products",
-      link: "/",
+      link: "/products",
     },
     {
       name: "Locks",
-      link: "/",
+      link: "/products",
     },
   ];
 
@@ -80,6 +80,7 @@ const FooterSection = () => {
                     (+91) 8868861935
                   </a>
                 </p>
+                <p className="mt-4 text-lg">E-38 Tala Nagri Sector 1 Industrial Area, Aligarh</p>
                 <ul className="mt-8 space-y-1 text-sm text-brown">
                   <li>Monday to Saturday: 9am - 6pm</li>
                   <li>Sunday Closed</li>
@@ -89,7 +90,7 @@ const FooterSection = () => {
                     return (
                       <li key={index}>
                         <Link
-                          href="/"
+                          href={socialMediaLink.link}
                           rel="noreferrer"
                           target="_blank"
                           className="text-brown transition hover:opacity-75"
