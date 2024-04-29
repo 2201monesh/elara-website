@@ -158,7 +158,7 @@
 @media screen and (max-width: 768px) {
   .landingPage-hero-section {
     background-size: 100% auto;
-    height: 800px;
-    width: 450px;
+    height: 180px;
+    /* width: 450px; */
   }
 }
